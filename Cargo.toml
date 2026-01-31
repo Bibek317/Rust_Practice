@@ -1,8 +1,16 @@
 [package]
+<<<<<<< HEAD
 name = "rust"
+=======
+name = "ndarr"
+>>>>>>> 37330c88d76a0d7c91d2500567acaf3e7beab1a2
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+<<<<<<< HEAD
 libm = "0.2.16"
 ndarray = "0.17.2"
+=======
+ndarray = "0.15"
+>>>>>>> 37330c88d76a0d7c91d2500567acaf3e7beab1a2

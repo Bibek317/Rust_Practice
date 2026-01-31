@@ -1,3 +1,8 @@
 target/
+<<<<<<< HEAD
 Cargos.lock
 .si.json
+=======
+.si.json
+Cargo.lock
+>>>>>>> 37330c88d76a0d7c91d2500567acaf3e7beab1a2
