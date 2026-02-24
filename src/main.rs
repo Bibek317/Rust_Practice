@@ -18,4 +18,5 @@ fn main() {
     let arr3 = Array2::from_shape_vec((2,3), vec![1,2,3,4,5,6]).unwrap();
     println!("Array2 example: {:?}", arr3);
     
+    println!("Hi");
 }
