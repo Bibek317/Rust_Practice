@@ -1,3 +1,6 @@
+mod library;
+use library::math::square;
+
 use ndarray::*;
 
 fn main() {
@@ -19,4 +22,20 @@ fn main() {
     println!("Array2 example: {:?}", arr3);
     
     println!("Hi");
+    
+    let x = 50.5;
+    println!("The results is {}", square(x));
+    
+    let x = array![
+        [1., 2.],
+        [3., 4.]
+    ];
+    let y = array![
+        [5., 6.],
+        [7., 8.]
+    ];
+    
+    let dots = x.dot(&y);
+    println!("The dot product is {:?}", dots);
+    
 }
