@@ -1,6 +1,5 @@
 use std::ops::{Add, Mul};
 
-#[warn(unused)]
 pub fn add<T>(a: T, b: T) -> T
 where
     T: Add<Output = T>,
