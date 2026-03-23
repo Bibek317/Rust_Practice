@@ -1,7 +1,7 @@
-[package]
-name = "Rust_Practice"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = ["crates/app"]
 
-[dependencies]
+resolver = "2"
+
+[workspace.dependencies]
 ndarray = "0.17.2"

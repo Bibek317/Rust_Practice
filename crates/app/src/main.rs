@@ -65,4 +65,6 @@ fn main() {
         "Calling Add function which is stored in index => 0 , the results is == {}",
         arrfn[0](100, 50)
     );
+
+    
 }

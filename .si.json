@@ -1,6 +1,6 @@
 {
   "plugin": "org.smartide.plugin.rust",
-  "run": "cargo run",
+  "run": "cargo run -p app",
   "gui": false,
   "intelligence": {
     ".json": {
